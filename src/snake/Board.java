@@ -116,7 +116,7 @@ public class Board extends JPanel implements ActionListener {
             //
         g.setColor(Color.yellow);
         g.setFont(new Font("serif",Font.BOLD, 20));
-        g.drawString("Score: "+licznik, 200, 30);
+        g.drawString("Score: "+licznik, 200, 30); // wypisywanie ilosci punktow
 
         } else {
 
