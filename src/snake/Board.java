@@ -135,7 +135,7 @@ public class Board extends JPanel implements ActionListener {
         g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, B_HEIGHT / 2);
         g.setColor(Color.yellow);
         g.setFont(small);
-        g.drawString("Zdobyta ilosc punktow: "+licznik, 60, 30);
+        g.drawString("Zdobyta ilosc punktow: "+licznik, 60, 30); // wypisanie ilosci zdobytych punktow
      
     }
 
@@ -145,7 +145,7 @@ public class Board extends JPanel implements ActionListener {
 
             dots++;
             locateApple();
-            licznik++; 
+            licznik++; // zliczanie/wypisywanie zdobytych punktów
         }
     }
 
